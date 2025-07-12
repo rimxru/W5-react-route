@@ -24,7 +24,8 @@ function Home() {
       name: "Wuthering Waves",
       image:
         "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/02/wuthering-waves-2-1-wuwa-21-when-release-date-time-update-maintenance-ends-come-out-phoebe-cover.jpg",
-      description: "เป็นเกมแนว Action RPG แบบ Open World หรือก็คือ เกมสวมบทบาทแนวแอคชั่นที่มีโลกเปิดให้สำรวจ.",
+      description:
+        "เป็นเกมแนว Action RPG แบบ Open World หรือก็คือ เกมสวมบทบาทแนวแอคชั่นที่มีโลกเปิดให้สำรวจ.",
     },
     {
       name: "Genshin Impact",
@@ -52,10 +53,10 @@ function Home() {
       borderBottom: "2px solid #444",
     },
     logo: {
-    width: '100px',
-    height: 'auto',
-    objectFit: 'cover',
-    borderRadius: '6px'
+      width: "100px",
+      height: "auto",
+      objectFit: "cover",
+      borderRadius: "6px",
     },
     title: {
       fontSize: "24px",
@@ -101,8 +102,14 @@ function Home() {
       </header>
 
       <main style={styles.main}>
-        <center><h2>🎮 ยินดีต้อนรับสู่ศูนย์รวมเกมยอดนิยม!</h2></center>
-        <center><p>รวมเกมยอดฮิตที่คุณไม่ควรพลาด เล่นสนุก ภาพสวย เล่นฟรี และน่าติดตาม</p></center>
+        <center>
+          <h2>🎮 ยินดีต้อนรับสู่ศูนย์รวมเกมยอดนิยม!</h2>
+        </center>
+        <center>
+          <p>
+            รวมเกมยอดฮิตที่คุณไม่ควรพลาด เล่นสนุก ภาพสวย เล่นฟรี และน่าติดตาม
+          </p>
+        </center>
         <div style={styles.grid}>
           {games.map((game, index) => (
             <div key={index} style={styles.card}>
